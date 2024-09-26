@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    height: 50px;
+}
+.page-name {
+    font-size: 25px;
+    
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.navbar ul li a:hover {
+    background-color: #c6c6c6;
+    border-radius: 5px;
+}
+.navbar ul li .icon {
+    margin-right: 5px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-button {
+    margin-bottom: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color:#cda24d;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+.button:hover {
+    background-color: #9f7a30;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f8f9fa;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #cda24d;
+    color: white;
+}
+
+td img {
+    max-width: 100px; 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9ecef;
+}
+
+tbody td a {
+    text-decoration: none;
+    padding: 8px 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+tbody td a:hover {
+    opacity: 0.9;
+}
+
+tbody td a.edit-btn {
+    background-color: #cda24d; 
+}
+
+tbody td a.delete-btn {
+    background-color: #f44336; 
+}

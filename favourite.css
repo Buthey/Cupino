@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    height: 50px;
+}
+.page-name {
+    font-size: 25px;
+    
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.navbar ul li a:hover {
+    background-color: #c6c6c6;
+    border-radius: 5px;
+}
+.navbar ul li .icon {
+    margin-right: 5px;
+}
+
+.favourite-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%; 
+    margin: 0 auto; 
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-image {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.favourite-item h3 {
+    font-size: 22px;
+    flex: 2;
+    margin-right: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.favourite-item p {
+    font-size: 20px;
+    flex: 1;
+    font-weight: 500;
+    margin-right: 20px;
+    color: #ba8f39;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.quantity-label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-selector input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.add-to-cart-btn {
+    padding: 10px 15px;
+    background-color: #ba8f39;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #a0792b;
+}
+
+.favourite-item + .favourite-item {
+    margin-top: 20px;
+}
+

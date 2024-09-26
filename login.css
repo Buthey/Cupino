@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.image-box img{
+    width: 50%;
+    height: 879px;
+    float: left;
+}
+
+.right-box{
+    width: 50%;
+    height: 703px;
+    float: left;
+}
+
+.right-box img{
+    width: 90px;
+    height: 90px;
+    margin-left: 190px;
+    margin-top: 120px;
+    float: left;
+}
+
+.right-box h3{
+    float: left;
+    margin-top: 130px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.right-box .welcome{
+    margin-top: 230px;
+    margin-left: 190px;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 50px;
+}
+.email{
+    margin-left: 190px;
+    font-size: 20px;
+}
+.email-box{
+    width: 550px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 190px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.password{
+    margin-top: 40px;
+    margin-left: 190px;
+    font-size: 20px;
+}
+.password-box{
+    width: 550px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 190px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.forget{
+    text-decoration: none;
+    color: grey;
+    margin-left: 190px;
+    font-size: 20px;
+}
+.forget:hover{
+    color: #964b00;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    accent-color:  rgba(109, 41, 41, 0.494);
+    margin-left: 195px;
+    margin-top: 20px;
+}
+.remember{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.login{
+    margin-top: 30px;
+    margin-left: 45%;
+    width: 106px;
+    height: 43px;
+    background-color:#964b00;
+    border-radius: 5px;
+    font-size: 18px;
+    border:#964b00;
+    color: white;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #7d3f01;
+}
+
+.new{
+    margin-top: 20px;
+    height: 20px;
+    width: 300px;
+    text-decoration: none;
+    color: grey;
+    margin-left:38%;
+    font-size: 20px;
+}
+.register-link{
+    text-decoration: none;
+    color:#964b00;
+}
+.register-link:hover{
+    color: black;
+}
+
